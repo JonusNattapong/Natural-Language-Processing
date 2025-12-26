@@ -1,3 +1,46 @@
+---
+annotations_creators:
+- AI-generated
+language_creators:
+- AI-generated
+language:
+- th
+license:
+- cc-by-3.0
+multilinguality:
+- monolingual
+size_categories:
+- 10K<n<100K
+source_datasets:
+- synthetic
+task_categories:
+- token-classification
+task_ids:
+- named-entity-recognition
+paperswithcode_id: null
+dataset_info:
+  features:
+  - name: id
+    dtype: string
+  - name: domain
+    dtype: string
+  - name: tokens
+    sequence: string
+  - name: tags
+    sequence: string
+  splits:
+  - name: train
+    num_bytes: 2048576
+    num_examples: 10345
+  download_size: 2048576
+  dataset_size: 2048576
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path: ThaiNER.jsonl
+---
+
 # Thai Named Entity Recognition (NER) Corpus
 
 A comprehensive corpus for Thai Named Entity Recognition tasks with 6,748 annotated sentences across 160 different domains.
