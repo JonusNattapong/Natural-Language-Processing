@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+
+# Editor
+.vscode/
+
+# Data and model artifacts
+Text Classification/data/*.csv
+Text Classification/src/model/
+Text Classification/src/.cache/
+Text Classification/src/**/*.pt
+Text Classification/src/**/*.bin
